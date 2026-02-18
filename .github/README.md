@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-codeguru-reviewer`](https://www.npmjs.com/package/@aws-sdk/client-codeguru-reviewer/v/3.665.0).
+[`@aws-sdk/client-codeguru-reviewer`](https://www.npmjs.com/package/@aws-sdk/client-codeguru-reviewer/v/3.666.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-reviewer@3.665.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-reviewer@3.666.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-FRTQ35taRDlnj6NF0VCbgH1eEYTn6F/Ejdq30wUqe3332KS2pK7KpNmq2YbVrOeb
+sha384-q1FL+rRS7CUtFXuyR2nUdUXO7oZ5XEkXdvTY2ir/YcDbDE29lUXiOkTpD52Dsqnv
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-codeguru-reviewer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-reviewer@3.665.0/index.min.mjs"
+            "@aws-sdk/client-codeguru-reviewer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-reviewer@3.666.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-reviewer@3.665.0/index.min.mjs": "sha384-FRTQ35taRDlnj6NF0VCbgH1eEYTn6F/Ejdq30wUqe3332KS2pK7KpNmq2YbVrOeb"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-reviewer@3.666.0/index.min.mjs": "sha384-q1FL+rRS7CUtFXuyR2nUdUXO7oZ5XEkXdvTY2ir/YcDbDE29lUXiOkTpD52Dsqnv"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-codeguru-reviewer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-reviewer@3.665.0/index.min.mjs"
+                        "@aws-sdk/client-codeguru-reviewer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-reviewer@3.666.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-reviewer@3.665.0/index.min.mjs": "sha384-FRTQ35taRDlnj6NF0VCbgH1eEYTn6F/Ejdq30wUqe3332KS2pK7KpNmq2YbVrOeb"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codeguru-reviewer@3.666.0/index.min.mjs": "sha384-q1FL+rRS7CUtFXuyR2nUdUXO7oZ5XEkXdvTY2ir/YcDbDE29lUXiOkTpD52Dsqnv"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.665.0`)
+* Always pin to a specific version (`@3.666.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-codeguru-reviewer/blob/refs/tags/3.665.0/LICENSE
+https://github.com/cloud-sdk-builds/client-codeguru-reviewer/blob/refs/tags/3.666.0/LICENSE
 ```
 
 ---
